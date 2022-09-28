@@ -1,3 +1,4 @@
+
 const genSidebar = require('./utils/genSidebar.js');
 
 /* 生成侧边栏配置 */
@@ -17,8 +18,23 @@ module.exports = {
             //浏览器的标签栏的网页图标，第一个'/'会遍历public文件夹的文件
         ],  
     ],
+    // 使用的主题
+    theme: 'vuepress-theme-vdoing',
     themeConfig: {
         logo: '/favicon.ico',  //网页顶端导航栏左上角的图标
+        hostname:"https://netaxe.github.io/",
+        author:"NetAxe",
+        locales: {
+            "/": {
+              // 设置正在使用的语言
+              lang: "zh-CN",
+            },
+            "/en/": {
+              // 设置正在使用的语言
+              lang: "en-US",
+            },
+          },
+       
         
         //顶部导航栏
         nav: [           
@@ -36,7 +52,8 @@ module.exports = {
             //     ]
             // },
             // { text: '文档', link: '/pages/article/article.md' },
-            { text: '问题反馈', link: '/questions/feedback.md' },
+            // { text: '快速开始', link: '/pages/article/初始化.md' },
+            { text: '问题反馈', link: '/questions/问题反馈.md' },
             
             //格式三：跳转至外部网页，需http/https前缀
             { text: 'Gitee', link: 'https://gitee.com/IFLY-DevNet/net-axe.git' },

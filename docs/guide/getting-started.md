@@ -1,3 +1,12 @@
+---
+title: getting-started
+date: 2022-09-22 15:40:37
+permalink: /pages/b4548b/
+categories:
+  - guide
+tags:
+  - 
+---
 # 快速部署NetAxe
 
 ## Prerequisites

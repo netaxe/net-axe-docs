@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-theme-hope": "^1.30.0",
+    "vuepress-theme-vdoing": "^1.12.8"
   }
 }
